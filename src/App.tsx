@@ -2,6 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import style from './App.module.scss';
+import { Button } from 'antd';
+import { Link, Route, Router } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +34,9 @@ function App() {
       <p className={style['read-the-docs']}>
         Click on the Vite and React logos to learn more
       </p>
+      <Link to="/123">
+        <Button type="primary">123</Button>
+      </Link>
     </div>
   );
 }
