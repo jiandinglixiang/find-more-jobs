@@ -1,7 +1,6 @@
-export default  console.log(1)
-console.log(1)
-console.log(1)
-console.log(1)
-console.log(1)
-
-
+export default console.log(1);
+console.log(1);
+console.log(1);
+console.log(1);
+console.log(1);
+console.log(1);
